@@ -44,7 +44,6 @@ public class SampleController {
 			String key = attributeNames.nextElement();
 			paramMap.put(key, req.getParameter(key));
 		}
-		//TODO//获取post参数
 		
 		//校验
 		ResponseData responseData = new ResponseData();
